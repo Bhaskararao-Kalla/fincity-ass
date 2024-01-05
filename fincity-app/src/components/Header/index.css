@@ -1,0 +1,36 @@
+.header-container {
+    height: 70px;
+    width: 100vw;
+    background-color: #fdc435;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-items-container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    outline: none;
+    text-decoration: none;
+  }
+  
+  .nav-item {
+    color: var(--font-high-emphasis, #25282b);
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 180%;
+  }
+  
+  .about {
+    margin-left: auto;
+  }
+  
+  .tab {
+    margin-left: 48px;
+  }

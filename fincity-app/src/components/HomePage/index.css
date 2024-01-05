@@ -1,0 +1,137 @@
+.home-bg-container {
+    height: 100vh;
+    background-color: #f9faff;
+  }
+  
+  .home-container {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .details-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .ui-ux {
+    color: #fdc435;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  
+  .heading {
+    color: #333333;
+    /* title/h1 */
+    font-family: 'Playfair Display';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0px;
+  }
+  
+  .description {
+    color: #828282;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .buttons-container {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .projects-button {
+    background-color: #fdc435;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 600;
+  }
+  
+  .linkedin-button {
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 2px solid #25282b;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 600;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 12px;
+  }
+  
+  .from-heading {
+    color: #25282b;
+    text-align: center;
+    /* title / h2 */
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .label {
+    color: #25282b;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .input {
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid #c0b8b8;
+    outline: none;
+    background: #fff;
+    padding-left: 10px;
+  }
+  
+  .description-input {
+    width: 400px;
+    height: 160px;
+    border-radius: 8px;
+    border: 2px solid #c0b8b8;
+    outline: none;
+    background: #fff;
+    padding: 5px;
+  }
+  
+  .submit-button {
+    padding: 8px 24px;
+    outline: none;
+    background-color: #fdc435;
+    font-family: 'roboto';
+    align-self: flex-end;
+    border: none;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+  }

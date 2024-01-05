@@ -1,0 +1,23 @@
+.projects-bg-container {
+    background-color: #f9faff;
+    padding-bottom: 100px;
+    background-size: cover;
+  }
+  
+  .projects-ul {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  }
+  
+  .projects-heading {
+    color: #25282b;
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+  }
